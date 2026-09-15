@@ -1,3 +1,42 @@
 Gen Ai: Genrate a response based on known data  in different ways:
 1.  Large Language Model (LLM): Generative pre-trained transformer (GPT) is a type of LLM that uses transformer architecture to generate human-like text.
- APIGroq=
+
+WorkFlow AI:-it is a simple workflow AI that can be used to generate a response based on known data.
+1. Create data source (txt, doc, pdf, etc) and upload to know source
+2. Create Workflow (this is where the logic of the AI is defined)
+
+
+RAG:-Retrieval-Augmented Generation is a technique that combines information retrieval with language models to generate more accurate and relevant responses.
+
+What is Embedding?
+    1. Text Embedding is a technique that converts text into a vector of numbers.Vector numbers represent the semantic meaning of the text. and will store in vector database.
+    2. How it is used in RAG?
+        1. When user ask a question, we first convert the question into a vector of numbers.
+        2. Then we will search for the most similar vectors in the vector database.
+        3. Then we will use the most similar vectors to generate a response.
+What is RAGApplication?
+    It is a workflow of RAG application that can be used to generate a response based on known data. RAG Application is used to generate a response based on known data.
+        1. Create a data source (txt, doc, pdf, etc) and upload to know source
+        2. Load the data source
+        3. Split the data source into chunks
+        4. Generate embeddings for each chunk
+        5. Store the embeddings in a vector database
+        6. When user asks a question, convert the question into a vector of numbers
+        7. Search for the most similar vectors in the vector database
+        8. Use the most similar vectors to generate a response
+        
+
+What is Agent?
+Agent = LLM + Memory + Tools+knoledgeBase
+    1. LLM: LLM is the brain of the agent that is used to generate a response.
+    2. Memory: Memory is the ability of the agent to remember the past conversations.
+    3. Tools: Tools are the ability of the agent to use external tools to generate a response. 
+    4. Knowledge Base: Knowledge Base is the ability of the agent to use external tools to generate a response. 
+
+Important characterstics of agent
+1.use LLM as brain
+2. it has some autonomy to take action. 
+.
+
+  
+     
